@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 758.0, 328.0, 981.0, 883.0 ],
+		"rect" : [ 318.0, 282.0, 1194.0, 877.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,86 +40,108 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-36",
-					"maxclass" : "button",
+					"floatoutput" : 1,
+					"id" : "obj-77",
+					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"orientation" : 1,
+					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 750.0, 285.0, 24.0, 24.0 ]
+					"patching_rect" : [ 46.0, 425.0, 180.0, 30.0 ],
+					"size" : 1.0
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-34",
-					"linecount" : 2,
+					"id" : "obj-22",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 690.0, 345.0, 277.0, 36.0 ],
-					"text" : ";\r\nmax launchbrowser https://www.eusebijucgla.com/"
+					"patching_rect" : [ 440.0, 297.0, 72.0, 22.0 ],
+					"text" : "port 2024"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-29",
+					"id" : "obj-26",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 675.0, 240.0, 51.0, 22.0 ],
-					"text" : "pcontrol"
+					"patching_rect" : [ 440.0, 253.0, 82.0, 22.0 ],
+					"text" : "receive r_port"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-26",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 60.0, 375.0, 20.0 ],
-					"style" : "helpfile_label",
-					"text" : "Eusebi Jucgla and Oscar van Leest \n ",
-					"textjustification" : 2
+					"id" : "obj-21",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 439.0, 699.0, 72.0, 22.0 ],
+					"text" : "port 44000"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 30.0,
-					"id" : "obj-25",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.584415435791016, 105.194804191589355, 375.0, 41.0 ],
-					"style" : "helpfile_label",
-					"text" : "Hackathon DATA 2024  \n ",
-					"textcolor" : [ 0.443137254901961, 0.443137254901961, 0.443137254901961, 1.0 ],
-					"textjustification" : 0
+					"id" : "obj-17",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 570.0, 699.0, 102.0, 22.0 ],
+					"text" : "host 127.0.0.1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 80.0,
-					"id" : "obj-24",
-					"maxclass" : "comment",
-					"numinlets" : 1,
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 570.0, 655.0, 106.0, 22.0 ],
+					"text" : "receive s_address"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 439.0, 655.0, 84.0, 22.0 ],
+					"text" : "receive s_port"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-40",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "InTune-Header.maxpat",
+					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.584415435791016, 15.584415435791016, 300.0, 98.0 ],
-					"style" : "helpfile_label",
-					"text" : "In Tune "
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 0.0, 0.0, 960.0, 150.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -130,8 +152,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 570.0, 135.0, 22.0 ],
-					"text" : "/value 127"
+					"patching_rect" : [ 171.0, 715.0, 135.0, 22.0 ],
+					"text" : "/value 62"
 				}
 
 			}
@@ -144,7 +166,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 45.0, 465.0, 180.0, 30.0 ]
+					"patching_rect" : [ 46.0, 627.0, 180.0, 30.0 ]
 				}
 
 			}
@@ -157,7 +179,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 405.0, 316.0, 29.0 ],
+					"patching_rect" : [ 46.0, 559.0, 316.0, 29.0 ],
 					"style" : "helpfile_label",
 					"text" : "Send OSC"
 				}
@@ -170,7 +192,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 525.0, 88.0, 22.0 ],
+					"patching_rect" : [ 46.0, 679.0, 88.0, 22.0 ],
 					"text" : "prepend /value"
 				}
 
@@ -181,21 +203,20 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 570.0, 145.0, 22.0 ],
-					"text" : "udpsend 127.0.0.1 44000"
+					"patching_rect" : [ 46.0, 765.0, 138.0, 22.0 ],
+					"text" : "udpsend 127.0.0.1 1234"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 330.0, 75.0, 77.0 ],
-					"text" : "0.787879 0.787879 0.787879 0.787879 0.787879"
+					"patching_rect" : [ 205.0, 375.0, 75.0, 22.0 ],
+					"text" : "0.393939"
 				}
 
 			}
@@ -206,7 +227,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 225.0, 285.0, 55.0, 22.0 ],
+					"patching_rect" : [ 205.0, 330.0, 55.0, 22.0 ],
 					"text" : "route /v1"
 				}
 
@@ -214,13 +235,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
-					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 285.0, 135.0, 50.0 ],
-					"text" : "/v1 0.787879 0.787879 0.787879 0.787879 0.787879"
+					"patching_rect" : [ 45.0, 330.0, 135.0, 22.0 ],
+					"text" : "/v1 0.393939"
 				}
 
 			}
@@ -231,8 +251,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 44.0, 226.0, 97.0, 22.0 ],
-					"text" : "udpreceive 2024"
+					"patching_rect" : [ 45.0, 281.0, 67.0, 22.0 ],
+					"text" : "udpreceive"
 				}
 
 			}
@@ -245,7 +265,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 180.0, 316.0, 29.0 ],
+					"patching_rect" : [ 45.0, 210.0, 316.0, 29.0 ],
 					"style" : "helpfile_label",
 					"text" : "Recieve OSC"
 				}
@@ -270,6 +290,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 1 ],
+					"order" : 0,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"order" : 1,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 1 ],
 					"order" : 0,
 					"source" : [ "obj-12", 0 ]
@@ -286,6 +322,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-17", 1 ],
+					"order" : 0,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"order" : 1,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-19", 0 ]
 				}
@@ -293,20 +352,59 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"source" : [ "obj-36", 0 ]
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 1 ],
+					"order" : 0,
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"order" : 1,
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
+					"order" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-77", 0 ],
+					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
 			}
  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "InTune-Header.maxpat",
+				"bootpath" : "E:/eusebijucgla/resources/teaching/2024/InTune-Hackathon-DATA-2024/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 
