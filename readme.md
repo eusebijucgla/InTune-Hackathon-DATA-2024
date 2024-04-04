@@ -13,7 +13,7 @@ Welcome to this workshop!
 
 Made by Oscar van Leest and Eusebi Jucglà
 
-Other resources:
+# Resources
 
 <b>Books</b>
 
