@@ -18,10 +18,13 @@ Other resources:
 <b>Books</b>
 
 Composing Interactions
+
 https://v2.nl/publications/composing-interactions
 
 Adventures in Step Sequencing
+
 https://cycling74.com/books/step-by-step
 
 Generating Sound and Organizing Time 
+
 https://cycling74.com/books/go
