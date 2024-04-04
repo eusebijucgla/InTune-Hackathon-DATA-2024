@@ -16,6 +16,7 @@ Made by Oscar van Leest and Eusebi Jucglà
 Other resources:
 
 <b>Books</b>
+
 Composing Interactions
 https://v2.nl/publications/composing-interactions
 
