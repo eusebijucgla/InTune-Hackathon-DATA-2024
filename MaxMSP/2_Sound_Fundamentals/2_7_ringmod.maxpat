@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 64.0, 125.0, 1342.0, 779.0 ],
+		"rect" : [ 64.0, 88.0, 1342.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -59,7 +59,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 649.0, 37.0, 236.0, 236.0 ],
+					"patching_rect" : [ 674.0, 42.0, 236.0, 236.0 ],
 					"pic" : "/Users/oscarvanleest/Documents/Max 8/Patches/hackathon/imgs/240px-Ring_modulation_two_forms_Diode-clipping_or_'chopper'_RM.svg.png"
 				}
 

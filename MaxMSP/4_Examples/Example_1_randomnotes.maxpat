@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 687.0, 519.0 ],
+		"rect" : [ 745.0, 106.0, 687.0, 519.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 69.0, 60.0, 327.0, 27.0 ],
-					"text" : "Example: generating random notes"
+					"text" : "Example 1: generating random notes"
 				}
 
 			}

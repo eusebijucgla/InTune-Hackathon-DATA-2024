@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-23",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 34.0, 37.0, 338.0, 27.0 ],
+					"text" : "Example 5: Four oscillator drone synth"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-71",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -222,8 +234,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 400.0, 171.0, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 400.0, 181.0, 150.0, 33.0 ],
 					"text" : "Convert midi pitch to frequency"
 				}
 
@@ -235,7 +246,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1130.0, 74.0, 150.0, 33.0 ],
+					"patching_rect" : [ 1130.0, 86.0, 150.0, 33.0 ],
 					"text" : "Full 127 note midi keyboard"
 				}
 
@@ -442,7 +453,7 @@
 					"offset" : 0,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 229.0, 64.0, 888.0, 53.0 ],
+					"patching_rect" : [ 228.0, 86.0, 888.0, 53.0 ],
 					"range" : 127
 				}
 
@@ -454,7 +465,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 336.0, 144.0, 32.0, 22.0 ],
+					"patching_rect" : [ 336.0, 154.0, 32.0, 22.0 ],
 					"text" : "mtof"
 				}
 
@@ -568,7 +579,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 336.0, 176.0, 50.0, 22.0 ]
+					"patching_rect" : [ 336.0, 186.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -604,7 +615,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 238.5, 132.5, 345.5, 132.5 ],
+					"midpoints" : [ 237.5, 147.5, 345.5, 147.5 ],
 					"source" : [ "obj-20", 0 ]
 				}
 

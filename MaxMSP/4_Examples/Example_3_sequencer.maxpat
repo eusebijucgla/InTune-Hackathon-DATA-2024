@@ -46,7 +46,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 560.5, 163.5, 150.0, 33.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Sends the bang to the current step"
 				}
 
@@ -59,7 +58,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 560.0, 365.5, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Checks that the correct current step is playing"
 				}
 
@@ -106,7 +104,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 579.0, 421.0, 154.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Transposes (moves) the sequence up or down"
 				}
 
@@ -118,7 +115,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 840.0, 262.0, 150.0, 47.0 ],
+					"patching_rect" : [ 840.0, 262.0, 154.0, 47.0 ],
 					"text" : "Each [live.dial] sets the note for its step, turning off the [toggle] skips the step"
 				}
 
@@ -1159,7 +1156,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 588.0, 128.0, 91.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Set maximum steps (1-4)"
 				}
 
@@ -1486,7 +1482,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 34.0, 37.0, 338.0, 47.0 ],
-					"text" : "2.4 Example: Basic sequencer with subpatches"
+					"text" : "Example 3: Basic sequencer with subpatches"
 				}
 
 			}

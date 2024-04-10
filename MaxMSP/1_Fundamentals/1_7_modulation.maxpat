@@ -40,12 +40,35 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 48.0, 20.0, 402.5, 27.0 ],
+					"text" : "1.7 Modulation sources"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 369.25, 371.0, 219.0, 33.0 ],
+					"text" : "[pack] turns all the individually set numbers into a list "
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-125",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 169.0, 200.0, 20.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 45.5, 172.5, 200.0, 20.0 ],
 					"text" : "Envelope/Function approach:"
 				}
 
@@ -70,7 +93,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 768.0, 416.5, 110.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "set counter minimum (20 by default)"
 				}
 
@@ -83,7 +105,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 697.0, 333.5, 110.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "set counter direction"
 				}
 
@@ -270,7 +291,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 626.0, 204.5, 252.0, 60.0 ],
-					"presentation_linecount" : 4,
 					"text" : "counter is always an option to generate modulation numbers too, especially since its output is very linear compared to converting waveforms."
 				}
 
@@ -307,7 +327,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 628.0, 309.5, 56.0, 22.0 ],
-					"text" : "metro 30"
+					"text" : "metro 10"
 				}
 
 			}
@@ -354,7 +374,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 47.0, 37.0, 402.0, 100.0 ],
+					"patching_rect" : [ 45.5, 57.0, 405.0, 100.0 ],
 					"text" : "Modulating numbers is an easy way to bring variation and generativity into your patch. Here the numbers are used to modulate the pitch of an oscillator, but they can be used to modulate anything that takes numbers (or floats after scaling) as arguments.\n\n\n"
 				}
 
@@ -451,7 +471,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 522.0, 243.5, 52.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "ramp down time"
 				}
 
@@ -464,7 +483,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 463.0, 257.5, 52.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "ramp up time "
 				}
 
@@ -477,7 +495,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 405.0, 257.5, 52.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "peak value"
 				}
 
@@ -501,7 +518,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 232.0, 202.5, 300.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "looping line generator with flexible segments: "
 				}
 
@@ -513,8 +529,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 202.5, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 48.0, 202.5, 152.0, 33.0 ],
 					"text" : "looping line generator with static segments"
 				}
 

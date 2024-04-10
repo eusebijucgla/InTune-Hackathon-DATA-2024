@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 29.0, 669.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -70,8 +70,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 445.0, 305.0, 116.0, 87.0 ],
-					"presentation_linecount" : 6,
+					"patching_rect" : [ 445.0, 305.0, 119.0, 87.0 ],
 					"text" : "[urn] also generates a random numbers, but will stop after every number within range has been picked"
 				}
 
@@ -1110,7 +1109,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 37.0, 33.0, 190.0, 27.0 ],
-					"text" : "3_1 Useful objects"
+					"text" : "3.1 Useful Objects"
 				}
 
 			}

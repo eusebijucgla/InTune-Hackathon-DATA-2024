@@ -46,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 52.0, 48.0, 291.0, 27.0 ],
-					"text" : "3_3 Useful objects: MIDI Basics"
+					"text" : "3.3 Useful objects: MIDI Basics"
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 589.0, 106.0, 1272.0, 760.0 ],
+		"rect" : [ 134.0, 106.0, 1272.0, 760.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 41.0, 41.0, 338.0, 27.0 ],
-					"text" : "Example: generate counting notes "
+					"text" : "Example 2: generate counting notes "
 				}
 
 			}

@@ -278,7 +278,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 34.0, 37.0, 592.0, 27.0 ],
-					"text" : "Drunken Ring Modulation"
+					"text" : "Example 6: Drunken Ring Modulation"
 				}
 
 			}
