@@ -25,3 +25,13 @@ https://cycling74.com/books/step-by-step
 
 Generating Sound and Organizing Time 
 https://cycling74.com/books/go
+
+
+# Sebi links for examples
+
+
+https://vincenthouze.com
+https://www.youtube.com/watch?v=rKeMJDxDtCY&ab_channel=MaxCooper
+https://www.yfxlab.com/
+https://www.instagram.com/paketa12/
+https://www.youtube.com/watch?v=uIkWK3WlF7A&ab_channel=EusebiJucgl%C3%A0
