@@ -40,6 +40,98 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"basictuning" : 440,
+					"clipheight" : 29.0,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "drumLoop.aif",
+								"filename" : "drumLoop.aif",
+								"filekind" : "audiofile",
+								"id" : "u812000851",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "epno.aiff",
+								"filename" : "epno.aiff",
+								"filekind" : "audiofile",
+								"id" : "u992000824",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "eroica.aiff",
+								"filename" : "eroica.aiff",
+								"filekind" : "audiofile",
+								"id" : "u657000819",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "flexTSdemo.wav",
+								"filename" : "flexTSdemo.wav",
+								"filekind" : "audiofile",
+								"id" : "u196000816",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "fx2TSdemo.wav",
+								"filename" : "fx2TSdemo.wav",
+								"filekind" : "audiofile",
+								"id" : "u084000810",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "fxTSdemo.wav",
+								"filename" : "fxTSdemo.wav",
+								"filekind" : "audiofile",
+								"id" : "u093000809",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-21",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 289.0, 236.0, 150.0, 180.0 ],
+					"pitchcorrection" : 0,
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-60",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -85,11 +177,12 @@
 								"filename" : "jongly.aif",
 								"filekind" : "audiofile",
 								"id" : "u402011396",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
 									"timestretch" : 1,
-									"speed" : 1.0,
-									"mode" : "rhythmic"
+									"speed" : 0.5,
+									"mode" : "rhythmic",
+									"loop" : 1
 								}
 
 							}
@@ -98,10 +191,11 @@
 								"filename" : "perc3TSdemo.wav",
 								"filekind" : "audiofile",
 								"id" : "u822011465",
+								"selection" : [ 0.1, 0.3 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"timestretch" : 1,
-									"speed" : 1.0,
+									"speed" : 0.5,
 									"mode" : "rhythmic"
 								}
 
@@ -114,7 +208,7 @@
 								"loop" : 0,
 								"content_state" : 								{
 									"timestretch" : 1,
-									"speed" : 1.0,
+									"speed" : 0.5,
 									"mode" : "rhythmic"
 								}
 
@@ -126,7 +220,7 @@
 								"id" : "u350005846",
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 1.0,
+									"speed" : 0.5,
 									"timestretch" : 1,
 									"mode" : "rhythmic"
 								}
@@ -140,7 +234,7 @@
 								"loop" : 0,
 								"content_state" : 								{
 									"timestretch" : 1,
-									"speed" : 1.0,
+									"speed" : 0.5,
 									"mode" : "rhythmic"
 								}
 
@@ -159,7 +253,7 @@
 					"originaltempo" : 120.000000000000057,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 556.0, 411.0, 150.0, 150.0 ],
+					"patching_rect" : [ 564.000016808509827, 395.333345115184784, 150.0, 150.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 1 ]
@@ -173,8 +267,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 764.0, 359.0, 95.0, 22.0 ],
-					"text" : "selection 1"
+					"patching_rect" : [ 764.0, 359.0, 66.0, 22.0 ],
+					"text" : "selection 2"
 				}
 
 			}
@@ -197,8 +291,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 764.0, 315.0, 106.0, 22.0 ],
-					"text" : "selection 1 0.1 0.3"
+					"patching_rect" : [ 749.0, 311.333342611789703, 106.0, 22.0 ],
+					"text" : "selection 2 0.1 0.3"
 				}
 
 			}
@@ -273,7 +367,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 287.0, 191.0, 160.0, 47.0 ],
+					"patching_rect" : [ 286.893199950456619, 174.75727915763855, 160.0, 47.0 ],
 					"text" : "Dragging multiple sound files will add them to the same [playlist~] object"
 				}
 
@@ -445,87 +539,6 @@
 			}
 , 			{
 				"box" : 				{
-					"basictuning" : 440,
-					"clipheight" : 29.0,
-					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "Clap 01.wav",
-								"filename" : "Clap 01.wav",
-								"filekind" : "audiofile",
-								"id" : "u711001081",
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "cym.aiff",
-								"filename" : "cym.aiff",
-								"filekind" : "audiofile",
-								"id" : "u398001085",
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "drumLoop.aif",
-								"filename" : "drumLoop.aif",
-								"filekind" : "audiofile",
-								"id" : "u445001089",
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "epno.aiff",
-								"filename" : "epno.aiff",
-								"filekind" : "audiofile",
-								"id" : "u343001093",
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "eroica.aiff",
-								"filename" : "eroica.aiff",
-								"filekind" : "audiofile",
-								"id" : "u010001097",
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
- ]
-					}
-,
-					"followglobaltempo" : 0,
-					"formantcorrection" : 0,
-					"id" : "obj-6",
-					"maxclass" : "playlist~",
-					"mode" : "basic",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"originallength" : [ 0.0, "ticks" ],
-					"originaltempo" : 120.0,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 287.0, 261.0, 150.0, 150.0 ],
-					"pitchcorrection" : 0,
-					"quality" : "basic",
-					"timestretch" : [ 0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
@@ -678,6 +691,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-55", 0 ],
 					"source" : [ "obj-22", 0 ]
 				}
@@ -741,20 +761,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 1 ],
-					"source" : [ "obj-6", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
 					"source" : [ "obj-8", 1 ]
 				}
@@ -797,12 +803,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "cym.aiff",
-				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "drumLoop.aif",
 				"bootpath" : "C74:/media/msp",
 				"type" : "AIFF",
@@ -818,6 +818,27 @@
 				"name" : "eroica.aiff",
 				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
 				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "flexTSdemo.wav",
+				"bootpath" : "~/Documents/Max 8/Packages/TS.Modular/media/samplerTest",
+				"patcherrelativepath" : "../../../../Max 8/Packages/TS.Modular/media/samplerTest",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fx2TSdemo.wav",
+				"bootpath" : "~/Documents/Max 8/Packages/TS.Modular/media/samplerTest",
+				"patcherrelativepath" : "../../../../Max 8/Packages/TS.Modular/media/samplerTest",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fxTSdemo.wav",
+				"bootpath" : "~/Documents/Max 8/Packages/TS.Modular/media/samplerTest",
+				"patcherrelativepath" : "../../../../Max 8/Packages/TS.Modular/media/samplerTest",
+				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
@@ -841,7 +862,7 @@
 , 			{
 				"name" : "perc3TSdemo.wav",
 				"bootpath" : "~/Documents/Max 8/Packages/TS.Modular/media/samplerTest",
-				"patcherrelativepath" : "../../../Packages/TS.Modular/media/samplerTest",
+				"patcherrelativepath" : "../../../../Max 8/Packages/TS.Modular/media/samplerTest",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
